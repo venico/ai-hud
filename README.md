@@ -1,13 +1,13 @@
-# game-mode-hud
+# AI-Hud
 
-DeepSeek Harness（dsh）的**游戏模式 HUD**：一个可拖拽的桌面浮层，用红条显示上下文占用、蓝条显示余额，并在你设置的阈值自动压缩历史。
+DeepSeek Harness（dsh）的****AI-Hud**：一个可拖拽的桌面浮层，用红条显示上下文占用、蓝条显示余额，并在你设置的阈值自动压缩历史。
 
 ## 安装
 
 桌面版：**设置 → 插件 → 添加插件**，填入：
 
 ```
-https://github.com/venico/game-mode-hud
+https://github.com/venico/ai-hud
 ```
 
 安装后它会作为一个插件包出现在插件列表里，带官方开关（**启停即时生效，无需重启**）。
@@ -59,4 +59,4 @@ https://github.com/venico/game-mode-hud
 
 ## 卸载
 
-插件页面里移除该插件，或从 profile 的 `dsh.profile.bundles` 中删掉 `game-mode-hud`。
+插件页面里移除该插件，或从 profile 的 `dsh.profile.bundles` 中删掉 `ai-hud`。
