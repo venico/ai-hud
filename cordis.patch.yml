@@ -1,0 +1,8 @@
+# game-mode-hud 的 bundle patch 层：把本包提供的双面插件插进 profile 组合。
+# 由 package.json 的 dsh.bundle.patch 声明，profile 通过 dsh.profile.bundles 选择。
+# 这样它就是一个标准的插件包，会出现在桌面版「插件」页面里，可用开关直接启停
+# （profile 的 cordis.patch.yml 无需再手写 insert，避免重复注册同一个 entry id）。
+
+- insert:
+    - id: game-mode-hud
+      name: game-mode-hud

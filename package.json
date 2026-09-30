@@ -1,0 +1,27 @@
+{
+  "name": "game-mode-hud",
+  "version": "1.1.0",
+  "description": "游戏模式 HUD：上下文红条 / 余额蓝条、用量记账、自动压缩、官网真实余额校对（bundle 形态的双面插件）",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  }
+}
