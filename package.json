@@ -1,6 +1,6 @@
 {
   "name": "ai-hud",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "AI-Hud：上下文红条 / 余额蓝条、用量记账、自动压缩、官网真实余额校对（bundle 形态的双面插件）",
   "type": "module",
   "main": "lib/index.js",
